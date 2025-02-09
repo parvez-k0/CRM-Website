@@ -1,0 +1,37 @@
+{% extends "parent.html" %}
+{% block body %}
+<h1 style="color:blue;text-align: center;">This is Login page.</h1>
+{% if msg %}
+<div class="alert alert.primery" role="alert">
+    {{msg}}
+</div>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    <table class="table">
+        <tr>
+            <td>Enter UserID</td>
+            <td>
+                <input type="text" name="userid" class="form=control" required placeholder="Enter UserID">
+            </td>
+                
+            
+        </tr>
+        <tr>
+            <td>Enter Password</td>
+            <td>
+                <input type="password" name="password" class="form-control" required placeholder="Enter Password">
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </td>
+        </tr>
+
+
+
+    </table>
+</form>
+{% endblock body %}

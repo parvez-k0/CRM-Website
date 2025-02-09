@@ -25,30 +25,30 @@ Ensure you have the following installed:
 - pip (Python package manager)
 - Virtualenv (optional but recommended)
 
-### Steps to Install and Run
-# Clone the repository
+## Steps to Install and Run
+### Clone the repository
 ```git clone https://github.com/parvez-k0/CRM-Website.git```
 
-# Navigate into the project directory
+### Navigate into the project directory
 ```cd CRM-Website```
 
-# Create a virtual environment (optional but recommended)
+### Create a virtual environment (optional but recommended)
 ```python -m venv venv```
 
-# Activate the virtual environment
-# On Windows
+### Activate the virtual environment
+### On Windows
 ```venv\Scripts\activate```
-# On macOS/Linux
+### On macOS/Linux
 ```source venv/bin/activate```
 
-# Install dependencies
+### Install dependencies
 ```pip install -r requirements.txt```
 
-# Apply database migrations
+### Apply database migrations
 ```python manage.py migrate```
 
-# Create a superuser (for admin access)
+### Create a superuser (for admin access)
 ```python manage.py createsuperuser```
 
-# Run the server
+### Run the server
 ```python manage.py runserver```

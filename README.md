@@ -26,7 +26,6 @@ Ensure you have the following installed:
 - Virtualenv (optional but recommended)
 
 ### Steps to Install and Run
-```bash
 # Clone the repository
 ```git clone https://github.com/parvez-k0/CRM-Website.git```
 

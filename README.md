@@ -52,3 +52,24 @@ Ensure you have the following installed:
 
 ### Run the server
 ```python manage.py runserver```
+
+
+
+## Usage
+- Admins can log in via `http://127.0.0.1:8000/admin/`.
+- Users can register and manage customer information.
+- Sales and interactions can be tracked via the dashboard.
+
+## Contributing
+If you wish to contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a pull request
+
+## License
+This project is licensed under the MIT License. See `LICENSE` for more details.
+
+## Contact
+For any queries, reach out via [LinkedIn](https://www.linkedin.com/in/mohd-parvez-khan) or email at `your-email@example.com`.
